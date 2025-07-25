@@ -476,11 +476,11 @@ if __name__ == '__main__':
     args.clip4evl = {'src':"clip", 'type':'ViT-B/32'}
 
     if args.dataset_name == 'birds':
-        args.data_dir = '../data/birds'
+        args.data_dir = './data/birds'
     elif args.dataset_name == 'flowers':
-        args.data_dir = '../data/flowers'
+        args.data_dir = './data/flowers'
     else:
-        args.data_dir = '../data/coco'
+        args.data_dir = './data/coco'
         args.epochs = 150
         args.samp_iter = 1
         args.iter = 10
